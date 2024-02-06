@@ -1,0 +1,1 @@
+print ("el costo de la entrada es ")
