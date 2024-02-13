@@ -4,7 +4,8 @@ persona={
     "estatura":1.59,
     "edad":50,
     "email":"cifuentes0903@gmail.com",
-    "ciudadnac":"ibage"
+    "ciudadnac":"ibage",
+    "genero": ["femenino","masculino","otro"]
 }
 print(persona)
 #mostrar elemento del dicionario 
