@@ -16,9 +16,9 @@ for x in range(nomcond):
         kms = int(input(f"ingrese los kilometros transcurridos : {dia}"))
         totalkms+=kms
     toal1.append(totalkms)
+for i in range(len(nombre)):
+    print(f"{nombre[i]} - Kilómetros totales: {toal1[i]}")
 
-print(nombre)
-print(totalkms)
 
         
 
