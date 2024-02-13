@@ -11,6 +11,10 @@ def profesor():
     #definimos el dicionario con el nombre clase
     maestro={}
     answer="si"
+
+
+
+    
     while answer=="si":
         clase=input(f"ingrese el nombre de la {x+1} clase : ")
         #puede tener variuas respuestas
@@ -18,7 +22,7 @@ def profesor():
         while answer =="si":
             nombre=input(f"ingrese el(los) nombre del {x+1} estudiente ")
             apellido=input(f"ingrese el(los) apellido del {x+1} estudiente ")
-
+            lista.append((nombre,apellido))
 
 
 
